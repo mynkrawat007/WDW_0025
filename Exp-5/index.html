@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Student Registration</title>
 </head>
 <body>
+    <h1 align="center">Student Registration Form</h1>
+    <hr>
+    <form method="post" action="submit.html">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" placeholder="Enter your full name" required>
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter valid email address" required>
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter Password">
+    <br>
+    <br>
+    <label for="Gender">Gender:</label>
+    <input type="radio" id="male" value="male" required>
+    Male
+    <input type="radio" id="female" value="female" required>
+    Female
+    <input type="radio" id="other" value="other" required>
+    Other
+    <br>
+    <br>
+    <label>Course:</label>
+    <select name="Course" required>
+        <option value>--Select Course--</option>
+        <option value="btech">B.Tech</option>
+        <option value="bca">B.CA</option>
+        <option value="mtech">M.Tech</option>
+        <option value="mca">M.CA</option>
+
+    </select>
+    <br>
+    <br>
+    <label for="Contact">Contact No.:</label>
+    <input type="tel" id="Contact" placeholder="Enter Phone Number">
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <br>
+    <textarea id="address" name="Address" rows="4" cols="40" placeholder="Enter your address" required></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+    </form>
+    <hr>
+    <p align="center">&copy; 2026 Registration Form </p>
+    <p align="center">&copy; Copyright by <a href="https://github.com/mynkrawat007/WDW_0025"target="_blank">mynkrawat007</a></p>
     
 </body>
 </html>
